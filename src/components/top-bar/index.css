@@ -1,0 +1,33 @@
+.topbar {
+    height: 56px;
+    box-shadow: 2px 2px 15px -4px #a1a1a1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.topbar-inner {
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+}
+.topbar-title {
+    font-family: 'Overpass', Ebrima;
+    text-align: center;
+    line-height: 58px;
+    font-size: 22px;
+    margin: 0px;
+    font-weight: 600;
+}
+.topbar-overflow-button {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    right: 10px;
+    top: 10px;
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+
+}

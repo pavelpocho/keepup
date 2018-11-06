@@ -1,0 +1,19 @@
+.overflow-button {
+    display: flex;
+    background-color: white;
+    border: none;
+    align-items: center;
+    color: #505050;
+    padding: 6px;
+    width: 100%;
+    justify-content: flex-start;
+}
+.ob-text {
+    font-family: 'Overpass', Ebrima;
+    font-size: 17px;
+    margin: 6px 8px 4px;
+    color: #303030;
+}
+.overflow-button i {
+    font-size: 20px !important;
+}

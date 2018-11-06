@@ -1,0 +1,11 @@
+.overflow-menu {
+    position: absolute;
+    right: 8px;
+    z-index: 4;
+    top: 8px;
+    box-shadow: 2px 2px 15px -4px #a1a1a1;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 150px;
+}

@@ -1,0 +1,112 @@
+.task_view {
+    box-shadow: 1px 1px 7.5px -2px #a1a1a1;
+    max-width: 800px;
+    margin: 8px auto;
+    height: 56px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.task-top {
+    display: flex;
+    justify-content: space-between;
+}
+.task_title {
+    font-size: 18px;
+    font-family: 'Overpass', Ebrima;
+    margin: 0px;
+    margin-left: 32px;
+    line-height: 60px;
+    transition: all 0.5s;
+    user-select: none;
+}
+.task_title:hover, .task_title:active {
+    font-weight: bold;
+    cursor: pointer;
+}
+.task_duration {
+    font-size: 14px;
+    line-height: 56px;
+    margin: 0px;
+    margin-left: 16px;
+    color: #606060;
+    font-family: 'Roboto', Ebrima;
+}
+.task_color_strip {
+    height: 56px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #a1a1a1;
+    width: 10px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.task_info {
+    display: flex;
+    justify-content: flex-start;
+}
+.task_action {
+    display: flex;
+    justify-content: flex-end;
+}
+.task_finish, .task_overflow_button {
+    background-color: transparent;
+    border: none;
+    height: 36px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 36px;
+    border-radius: 100%;
+}
+.task_finish {
+    color: #bf312c;
+}
+.task-progress-bar-wrap {
+    height: 20px;
+    width: 100%;
+    display: flex;
+}
+.task-progress-bar-wrap p {
+    margin: 0px;
+    margin-left: 15px;
+    height: 8px;
+    line-height: 10px;
+    font-family: 'Overpass', Ebrima;
+    font-weight: 600;
+} 
+.task-progress-bar {
+    position: relative;
+    height: 8px;
+    margin-left: 32px;
+    border-radius: 4px;
+    background-color: #e6e6e6;
+}
+.task-progress-bar-inner {
+    position: relative;
+    width: 46%;
+    background-color: #bf312c;
+    height: 8px;
+    border-radius: 4px;
+}
+.task-time-left-wrap p, .task-subtitle {
+    font-family: 'Overpass', Ebrima;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+.task-time-left-title {
+    margin-right: 6px !important;
+}
+.task-time-left-wrap {
+    display: flex;
+}
+.task-subtitle {
+    margin-top: 16px;
+}
+.task-time-left-wrap, .task-subtitle {
+    margin-left: 32px;
+    color: #666;
+}

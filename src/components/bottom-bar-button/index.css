@@ -1,0 +1,23 @@
+.bottom-bar-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    width: 130px;
+    padding: 4px 12px;
+    margin: 0px 8px;
+    text-align: center;
+}
+.bottom-bar-button i {
+    font-size: 24 !important;
+}
+.bottom-bar-button p {
+    margin: 4px 0px 0px 0px;
+    font-family: 'Overpass', Ebrima;
+    font-size: 18px;
+}
+.bbb-selected i {
+    color: #bf312c;
+}
+.bbb-selected p {
+    font-weight: 600;
+}

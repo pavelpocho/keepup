@@ -1,0 +1,22 @@
+.task-view-action-ribbon {
+    position: absolute;
+    right: 40px;
+    box-shadow: 2px 2px 15px -4px #a1a1a1;
+    height: 36px;
+    padding: 4px 8px;
+    width: 108px;
+    border-radius: 22px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    margin-top: 6px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 3;
+}
+.tvar-button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 100%;
+    background-color: transparent;
+}

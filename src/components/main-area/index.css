@@ -1,0 +1,38 @@
+.os-actual {
+    color: #bf312c;
+    font-family: 'Overpass', Ebrima;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.os-title {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    font-family: 'Overpass', Ebrima;
+}
+.score-card-wrap {
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.score-card {
+    max-width: 435px;
+    width: 425px;
+    margin: 0px 10px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 1px 1px 7.5px -2px #a1a1a1;
+    border-radius: 4px;
+}
+.score-title {
+    font-size: 18px;
+    font-family: 'Overpass', Ebrima;
+    margin: 0px;
+    padding: 12px 16px;
+    font-weight: 600;
+}

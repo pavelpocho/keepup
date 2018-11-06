@@ -1,0 +1,122 @@
+.work-view {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.work-view-inner {
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    max-height: 600px;
+}
+.work-view-topbar {
+    width: 100%;
+}
+.work-view-pre-title {
+    color: #303030;
+    font-size: 24px;
+    font-family: 'Overpass', Ebrima;
+    font-weight: bold;
+    text-align: center;
+}
+.work-view-title {
+    text-align: center;
+    color: black;
+    font-size: 26px;
+    font-family: 'Overpass', Ebrima;
+    font-weight: bold;
+}
+.work-view-buttons {
+    display: flex;
+    justify-content: center;
+}
+.work-view-buttons button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: 'Overpass', Ebrima;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 40px;
+    margin: 8px 12px;
+}
+.work-view-buttons i {
+    font-size: 24px;
+    margin-top: 6px;
+    float: left;
+    margin-right: 8px;
+}
+
+.work-view-buttons button:hover {
+    background-color: #b1b1b140;
+}
+
+.circle {
+	position: relative;
+	margin: 0px auto;
+    width: 200px; 
+    height: 200px;
+	border-radius: 50%;
+    background: transparent;
+}
+.arc-wrap {
+    transform: rotate(90deg);
+    height: 200px;
+    width: 200px;
+}
+.arc-preview {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #bf312c30;
+    box-sizing: border-box;
+}
+.arc {
+	overflow: hidden;
+	position: absolute;
+	top: 0em; right: 50%; bottom: 50%; left: 0em;
+	transform-origin: 100% 100%;
+	transform: rotate(0deg) skewX(0deg);
+}
+.arc-inner {
+	box-sizing: border-box;
+	display: block;
+	border: solid 4px #bf312c;
+    width: 200%;
+    height: 200%;
+	border-radius: 50%;
+	transform: skewX(-0deg);
+}
+.circle-time {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 30px;
+    line-height: 32px;
+    font-family: 'Overpass', Ebrima;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    margin-left: -50px;
+    margin-top: -30px;
+}
+.circle-pause {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 56px;
+    height: 56px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -28px;
+    margin-top: 0px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    
+}
